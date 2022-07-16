@@ -60,7 +60,6 @@ stack_t *add_dnodeint_end(stack_t **head, const int n);
 int delete_node_index(stack_t **head, unsigned int index);
 void free_stack_t(stack_t **head);
 int _isnumber(char *s);
-void _pall(stack_t **stack, unsigned int line_number);
 void _pint(stack_t **stack, unsigned int line_number);
 void _pop(stack_t **stack, unsigned int line_number);
 void _add(stack_t **stack, unsigned int line_number);
